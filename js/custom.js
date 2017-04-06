@@ -34,7 +34,7 @@ function homePage(){
 
 $(document).ready(function() {
 	$.ajax({
-		url : "https://mubiz.com/@user_url/bitcoin/montant/référence/emetteur/",
+		url : "https://bitcoin.mubiz.com/info",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
