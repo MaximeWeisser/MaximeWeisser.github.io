@@ -34,7 +34,7 @@ function homePage(){
 
 $(document).ready(function() {
 	$.ajax({
-		url : "https://bitcoin.mubiz.com/info",
+		url : "https://blockchain.info/fr/rawtx/$tx_index",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
