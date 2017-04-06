@@ -34,7 +34,7 @@ function homePage(){
 
 $(document).ready(function() {
 	$.ajax({
-		url : "https://blockchain.info/fr/rawtx/$tx_index",
+		url : "https://mubiz.com/@user_url/bitcoin/montant/référence/emetteur/",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
